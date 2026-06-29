@@ -18,3 +18,9 @@
   /* Border */
   --color-border: #E5E7EB;
 }
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+}
