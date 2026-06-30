@@ -1,5 +1,19 @@
+import {
+  Hero,
+  WhyChooseUs,
+  Features,
+  CTA,
+} from "../../components/landing";
+
 function Landing() {
-  return <h1>Landing Page</h1>;
+  return (
+    <>
+      <Hero />
+      <WhyChooseUs />
+      <Features />
+      <CTA />
+    </>
+  );
 }
 
 export default Landing;
